@@ -1,7 +1,10 @@
 // ignore_for_file: file_names
 
 import 'package:flutter/material.dart';
-class GlobalVariables{
+
+String uri = 'http://197.237.10.157:3000';
+
+class GlobalVariables {
   // COLORS
   static const appBarGradient = LinearGradient(
     colors: [

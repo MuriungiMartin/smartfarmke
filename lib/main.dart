@@ -32,15 +32,10 @@ class MyApp extends StatelessWidget {
         body: Column(
           children: [
             const Center(
-              child: Text('Home'),
+              child: Text('Better Agriculture, Better Life'),
             ),
             Builder(builder: (context) {
-              return ElevatedButton(
-                onPressed: () {
-                  Navigator.pushNamed(context, AuthScreen.routeName);
-                },
-                child: const Text('Submit'),
-              );
+              return const Image(image: AssetImage('assets/image/image1.jpg'));
             }),
           ],
         ),
